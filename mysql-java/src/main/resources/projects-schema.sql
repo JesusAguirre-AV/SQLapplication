@@ -30,7 +30,7 @@ CREATE TABLE project_category (
 
 CREATE TABLE step (
     step_id INT NOT NULL AUTO_INCREMENT,
-    project_id NOT NULL,
+    project_id INT NOT NULL,
     step_text TEXT NOT NULL,
     step_order INT NOT NULL,
     PRIMARY KEY (step_id),
